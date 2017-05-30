@@ -32,8 +32,6 @@
             this.imageBox1 = new Emgu.CV.UI.ImageBox();
             this.txtLog = new System.Windows.Forms.TextBox();
             this.imageBox2 = new Emgu.CV.UI.ImageBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox2)).BeginInit();
             this.SuspendLayout();
@@ -62,35 +60,11 @@
             this.imageBox2.TabIndex = 4;
             this.imageBox2.TabStop = false;
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(503, 373);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(194, 21);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Mode 1 (Just Blue Circles)";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(503, 414);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(161, 21);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.Text = "Mode 2 ( All Shapes)";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 582);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.imageBox2);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.imageBox1);
@@ -109,8 +83,6 @@
         private Emgu.CV.UI.ImageBox imageBox1;
         private System.Windows.Forms.TextBox txtLog;
         private Emgu.CV.UI.ImageBox imageBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 
